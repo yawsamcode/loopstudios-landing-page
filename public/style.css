@@ -858,6 +858,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.decoration-4{
+  text-decoration-thickness: 4px;
+}
+
+.underline-offset-8{
+  text-underline-offset: 8px;
+}
+
 .transition-shadow{
   transition-property: box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -879,6 +887,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
 @media (min-width: 768px){
   .md\:absolute{
     position: absolute;
@@ -898,6 +910,14 @@ video {
 
   .md\:mb-20{
     margin-bottom: 5rem;
+  }
+
+  .md\:mb-\[11\.5rem\]{
+    margin-bottom: 11.5rem;
+  }
+
+  .md\:mr-\[300px\]{
+    margin-right: 300px;
   }
 
   .md\:mt-8{
@@ -956,6 +976,10 @@ video {
     background-image: url('../public/assets/images/desktop/image-hero.jpg');
   }
 
+  .md\:p-7{
+    padding: 1.75rem;
+  }
+
   .md\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -985,6 +1009,11 @@ video {
     text-align: justify;
   }
 
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -1001,13 +1030,31 @@ video {
     margin-right: auto;
   }
 
+  .lg\:mr-\[500px\]{
+    margin-right: 500px;
+  }
+
   .lg\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
   }
 
+  .lg\:p-8{
+    padding: 2rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-5xl{
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
@@ -1018,21 +1065,71 @@ video {
     margin-right: auto;
   }
 
+  .xl\:mr-\[650px\]{
+    margin-right: 650px;
+  }
+
   .xl\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
   }
+
+  .xl\:p-8{
+    padding: 2rem;
+  }
+
+  .xl\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1536px){
+  .\32xl\:mx-96{
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
   .\32xl\:mx-auto{
     margin-left: auto;
     margin-right: auto;
   }
 
+  .\32xl\:ml-96{
+    margin-left: 24rem;
+  }
+
+  .\32xl\:mr-96{
+    margin-right: 24rem;
+  }
+
   .\32xl\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .\32xl\:p-10{
+    padding: 2.5rem;
+  }
+
+  .\32xl\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .\32xl\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 
