@@ -2620,12 +2620,6 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-shadow{
-  transition-property: box-shadow;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -2747,8 +2741,8 @@ video {
     left: 34rem;
   }
 
-  .md\:top-\[15rem\]{
-    top: 15rem;
+  .md\:top-\[20rem\]{
+    top: 20rem;
   }
 
   .md\:mb-0{
@@ -2823,6 +2817,10 @@ video {
     background-image: url('./assets/images/desktop/image-hero-desktop.jpg');
   }
 
+  .md\:p-2{
+    padding: 0.5rem;
+  }
+
   .md\:p-7{
     padding: 1.75rem;
   }
@@ -2840,8 +2838,8 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .md\:pl-24{
-    padding-left: 6rem;
+  .md\:pl-16{
+    padding-left: 4rem;
   }
 
   .md\:pt-24{
@@ -2890,6 +2888,14 @@ video {
     padding: 2rem;
   }
 
+  .lg\:pl-16{
+    padding-left: 4rem;
+  }
+
+  .lg\:pt-16{
+    padding-top: 4rem;
+  }
+
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2916,8 +2922,8 @@ video {
     margin-right: auto;
   }
 
-  .xl\:mr-\[50rem\]{
-    margin-right: 50rem;
+  .xl\:mr-\[48rem\]{
+    margin-right: 48rem;
   }
 
   .xl\:w-fit{
@@ -2925,8 +2931,8 @@ video {
     width: fit-content;
   }
 
-  .xl\:p-8{
-    padding: 2rem;
+  .xl\:p-10{
+    padding: 2.5rem;
   }
 
   .xl\:text-5xl{
