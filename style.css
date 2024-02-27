@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 /*
@@ -1912,7 +1913,7 @@ video {
 }
 
 .bg-mobile-hero{
-  background-image: url('../assets/images/mobile/image-hero.jpg');
+  background-image: url('./assets/images/mobile/image-hero-mobile.jpg');
 }
 
 .decoration-slice{
@@ -2819,7 +2820,7 @@ video {
   }
 
   .md\:bg-desktop-hero{
-    background-image: url('../assets/images/desktop/image-hero.jpg');
+    background-image: url('./assets/images/desktop/image-hero-desktop.jpg');
   }
 
   .md\:p-7{
