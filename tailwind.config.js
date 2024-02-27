@@ -8,8 +8,8 @@ module.exports = {
         Josefin: ["Josefin Sans", "sans-serif"],
       },
       backgroundImage: {
-        "mobile-hero": "url('https://res.cloudinary.com/dlykqebw2/image/upload/v1709033671/image-hero-mobile_dqtvuw.jpg')",
-        "desktop-hero": "url('https://res.cloudinary.com/dlykqebw2/image/upload/v1709033698/image-hero-desktop_bbmw6h.jpg')",
+        "mobile-hero": "url('./assets/images/mobile/image-hero-mobile.jpg')",
+        "desktop-hero": "url('./assets/images/desktop/image-hero-desktop.jpg')",
       },
       colors: {
         DarkGray: "hsl(0, 0%, 55%)",
